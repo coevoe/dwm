@@ -75,7 +75,6 @@ static const Rule rules[] = {
      */
     // class      instance                          title               tags mask isfloating     isterminal     noswallow      monitor */
     {NULL,          NULL,                           "Screen Layout Editor", 0,      1, 0, 0, -1},
-    {"Tlp-UI",      NULL,                           NULL,                   0,      1, 0, 0, -1},
     {"discord",     NULL,                           NULL,                   1 << 8, 0, 0, 0, -1},
     {"thunderbird", NULL,                           NULL,                   1 << 7, 0, 0, 0, -1},
     {"Steam",       NULL,                           NULL,                   1 << 9, 0, 0, 0, -1},
