@@ -1,2 +1,3 @@
 # ingnore every .o file
 *.o
+*.rej
