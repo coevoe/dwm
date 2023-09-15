@@ -124,8 +124,8 @@ static const Layout layouts[] = {
 #define STATUSBAR "slbar"
 
 // commands(variables declaration)
-static char        dmenumon[2] = "0"; // component of dmenucmd, manipulated in spawn()
-static const char *dmenucmd[] = {SCRIPTD "dm-run.sh", NULL};
+static char        dmenumon[2]    = "0"; // component of dmenucmd, manipulated in spawn()
+static const char *dmenucmd[]     = {SCRIPTD "dm-run.sh", NULL};
 static const char *dmrun[]        = {SCRIPTD "dm-run.sh", NULL};
 static const char *dmwmc[]        = {SCRIPTD "dm-wmch.sh", NULL};
 static const char *dmpow[]        = {SCRIPTD "dm-pwr.sh", NULL};
