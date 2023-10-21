@@ -1,6 +1,7 @@
 /* See LICENSE file for copyright and license details. */
-
+typedef unsigned int uint;
 #define SCRIPTDIR "/home/oizero/.local/bin/"
+#define CIMPL "/home/oizero/.local/bin/Cimpl/"
 /* separator used for separating modules */
 static const char *sep = " | ";
 /* length of the given separator */
@@ -14,13 +15,12 @@ static const uint sep_len = 3;
 static const Module modules[] = {
   /* command                  update interval    update signal */
   { SCRIPTDIR "dwm-cpu.sh",         2,                 0 },
-  { SCRIPTDIR "dwm-temp.sh",        2,                 0 },
+  { CIMPL "dwm-temp",               2,                 0 },
   { SCRIPTDIR "dwm-mem.sh",         2,                 0 },
   { SCRIPTDIR "dwm-disk.sh",     3600,                 0 },
-  { SCRIPTDIR "dwm-krnl.sh",     7200,                 0 },
-  { SCRIPTDIR "dwm-bat.sh",        20,                 0 },
+  { CIMPL "dwm-bat",               20,                 0 },
   { SCRIPTDIR "dwm-back.sh",        0,                11 },
   { SCRIPTDIR "dwm-audio.sh",       0,                10 },
   { SCRIPTDIR "dwm-xkb.sh",         0,                12 },
-  { SCRIPTDIR "dwm-date.sh",        1,                 0 },
+  { CIMPL "dwm-date",               1,                 0 },
 };
