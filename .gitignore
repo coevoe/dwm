@@ -4,3 +4,4 @@
 config.h
 dwm
 slbar/slbar
+*.orig
