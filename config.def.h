@@ -1,6 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 #include <X11/XF86keysym.h>
 
+d
 // definitons of used directories
 #define SESSION_FILE "/tmp/dwm-session"
 #define ROFIDIR "/home/oizero/.config/rofi/bin/"
